@@ -1,0 +1,26 @@
+.details_form{
+    border: 1px solid lightgray;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gainsboro;
+}
+.details_image{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.detail_border{
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.information{
+    padding: 10px 20px;
+    background-color: lightsalmon;
+    color: white;
+}
+.plan{
+    border: 3px solid lightsalmon;
+     padding: 10px 20px;
+}

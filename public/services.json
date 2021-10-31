@@ -1,0 +1,81 @@
+[{
+    "id": 1,
+    "name": "Paris Hill Tour",
+    "price": "$180/Per Person",
+    "description": "Maecenas luctus urna velit, sit amet varius nunc laoreet a",
+    "image": "https://i.ibb.co/1Mr2WBH/offering6.png"
+}, {
+    "id": 2,
+    "name": "Lake Garda, Italy",
+    "price": "$280/Per Person",
+    "description": "Uspendisse tincidunt enim eget auctor maximus. Vestibulum in cursus erat",
+    "image": "https://i.ibb.co/GPtz60W/offering5.png"
+}, {
+    "id": 3,
+    "name": "Mount Dtna, Italyr",
+    "price": "$120/Per Person",
+    "description": "Aliquam nisi mauris, venenatis id ligula vel, fermentum convallis orci",
+    "image": "https://i.ibb.co/G0MSPkb/offering4.png"
+}, {
+    "id": 4,
+    "name": "Amalfi Costa, Italy",
+    "price": "$320/Per Person",
+    "description": "Mauris ut nisi blandit, ultrices odio ut, aliquet ligula. Aliquam mat",
+    "image": "https://i.ibb.co/jJ86NTb/offering3.png"
+}, {
+    "id": 5,
+    "name": "French Rivira, France",
+    "price": "$240/Per Person",
+    "description": "Duis at nulla luctus, accumsan orci vel, auctor enim. Morbi elit dia",
+    "image": "https://i.ibb.co/C1HgcFV/offering2.png"
+}, {
+    "id": 6,
+    "name": "Lake Geneva, France",
+    "price": "$145/Per Person",
+    "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra",
+    "image": "https://i.ibb.co/891tKLc/offering1.png"
+},{
+    "id": 7,
+    "name": "French Rivira, France",
+    "price": "$180/Per Person",
+    "description": "You've made a dentist appointment, and it can't come soon enough.",
+    "image": "https://i.ibb.co/PhJptmk/offering12.png"
+},
+{
+    "id": 8,
+    "name": "Mount Dtna, Italyr",
+    "price": "$180/Per Person",
+    "description": "Meanwhile, it can help to rinse your mouth with warm water, floss to remove food caught between teeth, ",
+    "image": "https://i.ibb.co/x82q2Qb/offering11.png"
+},{
+    "id": 9,
+    "name": "Amalfi Costa, Italy",
+    "price": "$180/Per Person",
+    "description": "If you notice swelling or pus around the tooth, or if you have a fever, that could be a sign that you have an abscess, a more serious",
+    "image": "https://i.ibb.co/jZG5dnS/offering10.png"
+},{
+    "id": 10,
+    "name": "Paris Hill Tour",
+    "price": "$180/Per Person",
+    "description": "See your dentist as soon as possible. You may need antibiotics as well as other treatments.",
+    "image": "https://i.ibb.co/JFqM1jr/offering9.png"
+},{
+    "id": 11,
+    "name": "Mount Dtna, Italyr",
+    "price": "$180/Per Person",
+    "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra",
+    "image": "https://i.ibb.co/tZJCGWt/offering7.png"
+},{
+    "id": 12,
+    "name": "Paris Hill Tour",
+    "price": "$180/Per Person",
+    "description": "Your teeth are like your laundry: The right approach will remove many stains. Foods, medications, tobacco, and trauma are some of the things",
+    "image": "https://i.ibb.co/LRSWjQz/offering8.png"
+}
+]
+
+
+
+
+
+

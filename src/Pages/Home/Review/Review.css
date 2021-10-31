@@ -1,0 +1,31 @@
+.review{
+    
+    box-shadow: 5px 5px 5px lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.review_content h1{
+    font-weight: 700;
+}
+.review_content h4{
+    font-weight: 700;
+    color: purple;
+}
+
+.review_image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.review_back{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}

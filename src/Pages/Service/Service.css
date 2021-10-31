@@ -1,0 +1,8 @@
+.services {
+    height: 200px;
+    transition: 0.4s;
+}
+
+.services:hover {
+    transform: scale(1.05);
+}

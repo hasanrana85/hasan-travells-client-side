@@ -1,0 +1,21 @@
+.travelling{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+.travel_reason{
+    background-color: #315048;
+    padding: 20px;
+    border-radius: 20px;
+}
+.travel_reason p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.choose_image{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 30px;
+}
+

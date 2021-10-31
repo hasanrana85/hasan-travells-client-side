@@ -1,0 +1,35 @@
+.about_back{
+    padding: 10px;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 20px;
+    
+}
+.about_image{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+.about_image3,
+.about_image2{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+.about_back3,
+.about_back2{
+      padding: 10px;
+      border: 1px solid lightgrey;
+      box-shadow: 5px 5px 10px lightgrey;
+      border-radius: 20px;
+}
+.about_btn{
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: orange;
+    border-radius: 20px;
+}
+.guide1:hover{
+    transform: scale(1.08);
+    transition: 0.4s;
+}
