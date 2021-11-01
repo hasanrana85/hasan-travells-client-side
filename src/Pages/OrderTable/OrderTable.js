@@ -30,7 +30,7 @@ const OrderTable = (props) => {
     const handleDeleteVisitor = id =>{
         const proceed = window.confirm('Are you sure, you want to delete?')
         if(proceed){
-            const url = `http://localhost:5000/visitor/${id}`;
+            const url = `https://gruesome-spell-64499.herokuapp.com/visitor/${id}`;
         fetch(url, {
             method: 'DELETE'
         })

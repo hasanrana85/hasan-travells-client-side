@@ -15,7 +15,7 @@ const OrderDetails = () => {
     const visitingCountryRef = useRef();
     const {user} = useAuth();
     useEffect( () =>{
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://gruesome-spell-64499.herokuapp.com/services/${serviceId}`)
         .then(res => res.json())
         .then(data => setService(data));
     }, []);
@@ -31,7 +31,7 @@ const OrderDetails = () => {
         const newVisitor = {name, email, phone, country, message, visitingCountry, status}
 
         // send data to the server
-        fetch('http://localhost:5000/visitor',{
+        fetch('https://gruesome-spell-64499.herokuapp.com/visitor',{
             method: 'post',
             headers: {
                 'content-type': 'application/json'

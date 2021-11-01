@@ -14,7 +14,7 @@ const Manage = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:5000/service', data)
+        axios.post('https://gruesome-spell-64499.herokuapp.com/service', data)
         .then(res => {
             if(res.data.insertedId){
                 alert('added successfully');
@@ -24,7 +24,7 @@ const Manage = () => {
     }
 
     useEffect( () => {
-        fetch('http://localhost:5000/visitor')
+        fetch('https://gruesome-spell-64499.herokuapp.com/visitor')
         .then(res => res.json())
         .then(data => setOrders(data));
     }, []);
