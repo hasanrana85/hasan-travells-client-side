@@ -1,14 +1,16 @@
 
 import { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
+import useAuth from '../../hooks/useAuth';
 import OrderTable from '../OrderTable/OrderTable';
 import './MyOrder.css';
 
 const MyOrder = () => {
+    const {user} = useAuth();
     const [orders, setOrders] = useState([]);
-
+    console.log(orders, user.email);
     useEffect( () => {
-        fetch('http://localhost:5000/visitor')
+        fetch(`http://localhost:5000/visitor/${user.email}`)
         .then(res => res.json())
         .then(data => setOrders(data));
     }, []);
@@ -23,7 +25,7 @@ const MyOrder = () => {
                     <th>email</th>
                     <th>Phone</th>
                     <th>country</th>
-                    <th>visiting country</th>
+                    <th>Status</th>
                     <th>manage</th>
                     </tr>
                 </thead>
@@ -38,14 +40,6 @@ const MyOrder = () => {
                 </tbody>
             </Table>
 
-
-
-
-
-
-            
-            
-            
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './OrderDetails.css';
 import details from '../../images/offering/offering1.png';
 import { useParams } from 'react-router';
+import useAuth from '../../hooks/useAuth';
 
 const OrderDetails = () => {
     const [service, setService] = useState({});
@@ -12,7 +13,7 @@ const OrderDetails = () => {
     const countryRef = useRef();
     const messageRef = useRef();
     const visitingCountryRef = useRef();
-
+    const {user} = useAuth();
     useEffect( () =>{
         fetch(`http://localhost:5000/services/${serviceId}`)
         .then(res => res.json())
@@ -26,8 +27,8 @@ const OrderDetails = () => {
         const country = countryRef.current.value;
         const message = messageRef.current.value;
         const visitingCountry = visitingCountryRef.current.value;
-
-        const newVisitor = {name, email, phone, country, message, visitingCountry}
+        const status = "panding";
+        const newVisitor = {name, email, phone, country, message, visitingCountry, status}
 
         // send data to the server
         fetch('http://localhost:5000/visitor',{
@@ -107,11 +108,11 @@ const OrderDetails = () => {
                             <h3 className="mb-3 fw-blod">Book This Package</h3>
                             <form onSubmit={handleAddOrder}>
                                 <div>
-                                    <input ref={nameRef} className="form-control" type="text" name="" id="" placeholder="Your Full Name" />
+                                    <input ref={nameRef} className="form-control" type="text" name="" id="" placeholder="Your Full Name" value={user.displayName} />
                                 </div>
                                 <br />
                                 <div>
-                                    <input ref={emailRef} className="form-control" type="email" name="" id="" placeholder="Your Email"/>
+                                    <input ref={emailRef} className="form-control" type="email" name="" id="" placeholder="Your Email" value={user.email}/>
                                 </div>
                                 <br />
                                 <div>

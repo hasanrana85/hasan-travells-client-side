@@ -20,8 +20,13 @@ const Header = () => {
                             <Nav.Link as={Link} to="/home#home" className="text-white text-capitalize">Home</Nav.Link>
                             <Nav.Link as={Link} to="/services#services" className="text-white text-capitalize">Services</Nav.Link>
                             <Nav.Link as={Link} to="/about#about" className="text-white text-capitalize">About Us</Nav.Link>
-                            <Nav.Link as={Link} to="/manage#manage" className="text-white text-capitalize">Manage</Nav.Link>
-                            <Nav.Link as={Link} to="/myOrder#myOrder" className="text-white text-capitalize">My Order</Nav.Link>
+                            {
+                                user.email && <Nav.Link as={Link} to="/manage#manage" className="text-white text-capitalize">Manage all</Nav.Link>
+                            }
+                            {
+                                user.email && <Nav.Link as={Link} to='/myOrder#myOrder' className="text-white text-capitalize">My Order</Nav.Link>
+                            }
+                            
                                 { user.email ?
                                 <button onClick={logOut}>Log Out</button>
                                 :
